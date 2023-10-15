@@ -1,0 +1,64 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(48, 36, 60);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #d39797;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button{
+    background-color: #4CAF50; /* Background color */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* Remove underline on hover */
+    display: inline-block; /* Display as a block-level element */
+    font-size: 16px; /* Font size */
+    margin: -3px 5px; /* Margin around the button */
+    position: relative;
+    top: 2px;
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    transition: background-color 0.3s, color 0.3s; /* Transition on hover */
+  }
+
+button:hover {
+    background-color: #0056b3;
+}

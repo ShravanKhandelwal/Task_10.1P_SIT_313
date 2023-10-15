@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Apply basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    max-width: 1550px; /* Set your desired maximum width in pixels or any other valid unit */
+    margin: 0 auto; 
+    max-height: 10px;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  .footer{
+    background-color: #333;
+    height: 120px;
+    position: relative;
+    top: -26px;
+  }
+
+  #footer_text{
+    position: relative;
+    top: 40px;
+    color: white;
+  }
+
+  button{
+    background-color: #4CAF50; /* Background color */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* Remove underline on hover */
+    display: inline-block; /* Display as a block-level element */
+    font-size: 16px; /* Font size */
+    margin: -3px 5px; /* Margin around the button */
+    position: relative;
+    top: -10px;
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    transition: background-color 0.3s, color 0.3s; /* Transition on hover */
+  }
+
+  img{
+    width: 1550px;
+    height: 500px;
+  }
+
+  button:hover{
+    background-color: #45a049; /* Darken the background color on hover */
+    color: white; /* Change text color on hover */
+  }
+
+  .first_nav{
+    margin-left: -1250px;
+    position: relative;
+    top: 20px;
+  }
+
+  #text_area{
+    width: 700px;
+    padding: 5px;
+  }
+
+  .last_nav{
+    margin-right: -1200px;
+    margin-top: -20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Style the page header */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Style the main content area */
+  p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style links within the content */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
